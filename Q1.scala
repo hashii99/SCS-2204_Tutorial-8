@@ -17,5 +17,5 @@ case class Point(a:Int, b:Int) {
   def x: Int = a
   def y: Int = b
 
-  def add(p:Point) =  Point(a+p.a, b+p.b);
+  def add(p:Point) =  Point(a+p.a, b+p.b); // add two points
 }
